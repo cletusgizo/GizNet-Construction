@@ -10,8 +10,6 @@ import {
   Star,
   HardHat,
   Building,
-  Wrench,
-  Compass,
 } from "lucide-react";
 
 const Home = () => {
@@ -27,18 +25,6 @@ const Home = () => {
       title: "Commercial Construction",
       description:
         "Professional commercial buildings designed for functionality and durability.",
-    },
-    {
-      icon: <Wrench className="h-8 w-8" />,
-      title: "Renovations",
-      description:
-        "Transform your existing space with our expert renovation services.",
-    },
-    {
-      icon: <Compass className="h-8 w-8" />,
-      title: "Architecture & Design",
-      description:
-        "Innovative architectural solutions tailored to your vision and needs.",
     },
   ];
 
@@ -74,21 +60,21 @@ const Home = () => {
       name: "Sarah Johnson",
       role: "Homeowner",
       content:
-        "BuildCorp exceeded our expectations. Their attention to detail and professionalism made our dream home a reality.",
+        "Gizo Construction delivered exactly what we needed. Their craftsmanship and attention to detail turned our vision into reality.",
       rating: 5,
     },
     {
       name: "Mike Chen",
       role: "Business Owner",
       content:
-        "Outstanding work on our office complex. Completed on time and within budget. Highly recommend!",
+        "They handled our office renovation really well. The team was professional and kept everything on schedule. The result exceeded what we expected.",
       rating: 5,
     },
     {
       name: "Emily Rodriguez",
       role: "Property Developer",
       content:
-        "Working with BuildCorp has been a pleasure. Their expertise and reliability are unmatched.",
+        "Working with Gizo Construction was a great experience. Their team knows what they're doing and delivers quality work.",
       rating: 5,
     },
   ];
@@ -123,7 +109,7 @@ const Home = () => {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=1920')`,
+            backgroundImage: `url('/construction-hero.jpg')`,
           }}
         >
           <div className="absolute inset-0 bg-navy-900/70"></div>

@@ -1,14 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import {
-  HardHat,
-  Phone,
-  Mail,
-  MapPin,
-  Facebook,
-  Instagram,
-  Linkedin,
-} from "lucide-react";
+import { Phone, Mail, MapPin } from "lucide-react";
 
 const Footer = () => {
   const quickLinks = [
@@ -23,9 +15,6 @@ const Footer = () => {
   const services = [
     "Residential Construction",
     "Commercial Construction",
-    "Renovations",
-    "Architecture & Design",
-    "Project Management",
   ];
 
   return (
@@ -35,10 +24,8 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="bg-gold-500 p-2 rounded-lg">
-                <HardHat className="h-8 w-8 text-white" />
-              </div>
-              <span className="text-2xl font-bold">GizNet Const</span>
+              <div className="bg-gold-500 p-2 rounded-lg"></div>
+              <span className="text-2xl font-bold">Gizo Construction</span>
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
               Building your future with strength and precision. We are a leading
@@ -48,7 +35,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-gold-500" />
-                <span className="text-gray-300">+234 (906) 625-2115</span>
+                <span className="text-gray-300"> (+234) 906 625 2115</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-gold-500" />
@@ -56,7 +43,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="h-5 w-5 text-gold-500" />
-                <span className="text-gray-300">Remote</span>
+                <span className="text-gray-300">Lagos, Nigeria</span>
               </div>
             </div>
           </div>
@@ -95,14 +82,7 @@ const Footer = () => {
 
         {/* Social Media & Copyright */}
         <div className="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <div className="flex space-x-4 mb-4 md:mb-0">
-            <a
-              href="#"
-              className="text-gray-300 hover:text-gold-500 transition-colors"
-            >
-              <Linkedin className="h-6 w-6" />
-            </a>
-          </div>
+          <div className="flex space-x-4 mb-4 md:mb-0"></div>
           <div className="text-center md:text-right">
             <p className="text-gray-300">
               © 2024 GizNet. All rights reserved. |

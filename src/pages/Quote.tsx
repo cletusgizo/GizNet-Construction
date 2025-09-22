@@ -147,7 +147,7 @@ const Quote = () => {
               Quote Request Submitted!
             </h1>
             <p className="text-gray-600 text-lg mb-6">
-              Thank you for your interest in BuildCorp. We've received your quote request 
+              Thank you for your interest in Gizo Construction. We've received your quote request 
               and will get back to you within 24 hours with a detailed proposal.
             </p>
             <div className="bg-gold-50 p-4 rounded-lg mb-6">

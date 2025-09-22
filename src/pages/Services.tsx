@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Building, HardHat, Wrench, Compass, Settings, ArrowRight, CheckCircle } from 'lucide-react';
+import { Building, HardHat, ArrowRight, CheckCircle } from 'lucide-react';
 
 const Services = () => {
   const services = [
@@ -20,30 +20,6 @@ const Services = () => {
       description: 'Professional commercial buildings designed for functionality, durability, and business success.',
       features: ['Office Buildings', 'Retail Centers', 'Warehouses', 'Industrial Facilities'],
       image: 'https://images.pexels.com/photos/2138922/pexels-photo-2138922.jpeg?auto=compress&cs=tinysrgb&w=800',
-    },
-    {
-      id: 'renovations',
-      icon: <Wrench className="h-12 w-12" />,
-      title: 'Renovations & Remodeling',
-      description: 'Transform your existing space with expert renovation services that breathe new life into any structure.',
-      features: ['Kitchen Remodeling', 'Bathroom Updates', 'Whole House Renovations', 'Commercial Renovations'],
-      image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800',
-    },
-    {
-      id: 'architecture',
-      icon: <Compass className="h-12 w-12" />,
-      title: 'Architecture & Design',
-      description: 'Innovative architectural solutions that combine aesthetic appeal with practical functionality.',
-      features: ['Architectural Design', 'Interior Design', '3D Modeling', 'Planning Permits'],
-      image: 'https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=800',
-    },
-    {
-      id: 'management',
-      icon: <Settings className="h-12 w-12" />,
-      title: 'Project Management',
-      description: 'Comprehensive project management ensuring your construction project is completed on time and on budget.',
-      features: ['Timeline Management', 'Budget Control', 'Quality Assurance', 'Permit Coordination'],
-      image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800',
     },
   ];
 

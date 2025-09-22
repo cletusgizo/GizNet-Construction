@@ -9,7 +9,7 @@ const Blog = () => {
       id: 1,
       title: 'Sustainable Building Materials: The Future of Construction',
       slug: 'sustainable-building-materials-future-construction',
-      excerpt: 'Explore the latest eco-friendly materials and practices that are revolutionizing the construction industry while reducing environmental impact.',
+      excerpt: 'Discover new sustainable building materials and methods that are changing how we construct while being kinder to the environment.',
       content: `The construction industry is experiencing a significant shift towards sustainability, with innovative materials and practices leading the way...`,
       author: 'Sarah Johnson',
       date: '2024-01-15',
@@ -22,7 +22,7 @@ const Blog = () => {
       id: 2,
       title: 'Smart Home Technology Integration in Modern Construction',
       slug: 'smart-home-technology-integration-modern-construction',
-      excerpt: 'Learn how smart home technologies are being seamlessly integrated into new construction projects for enhanced comfort and efficiency.',
+      excerpt: 'See how modern smart home features are being built into new homes to make daily life easier and more efficient.',
       content: `Smart home technology has moved from luxury to necessity in modern construction projects...`,
       author: 'Mike Chen',
       date: '2024-01-12',
@@ -93,7 +93,6 @@ const Blog = () => {
     : blogPosts.filter(post => post.category === selectedCategory);
 
   const featuredPost = blogPosts.find(post => post.featured);
-  const regularPosts = blogPosts.filter(post => !post.featured);
 
   return (
     <div className="pt-20">
@@ -102,7 +101,7 @@ const Blog = () => {
         <div 
           className="absolute inset-0 opacity-20"
           style={{
-            backgroundImage: `url('https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=1920')`,
+            backgroundImage: `url('/images/blog-hero.jpg')`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}

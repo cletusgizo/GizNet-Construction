@@ -48,8 +48,8 @@ const Contact = () => {
     {
       icon: <MapPin className="h-6 w-6" />,
       title: "Office",
-      details: ["Remote Jobs"],
-      description: "We operate remotely",
+      details: ["Lagos, Nigeria"],
+      description: "Serving Lagos and surrounding areas",
     },
     {
       icon: <Clock className="h-6 w-6" />,
@@ -234,10 +234,6 @@ const Contact = () => {
                         </option>
                         <option value="commercial">
                           Commercial Construction
-                        </option>
-                        <option value="renovation">Renovation</option>
-                        <option value="architecture">
-                          Architecture & Design
                         </option>
                         <option value="consultation">
                           General Consultation

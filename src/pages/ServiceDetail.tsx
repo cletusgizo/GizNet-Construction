@@ -58,7 +58,7 @@ const ServiceDetail = () => {
       testimonials: [
         {
           name: 'Jennifer Smith',
-          text: 'BuildCorp exceeded our expectations in every way. Our dream home is now a reality!',
+          text: 'Gizo Construction really delivered on their promises. Our new home turned out even better than we imagined!',
           rating: 5,
         },
         {

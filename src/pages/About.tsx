@@ -33,7 +33,7 @@ const About = () => {
         <div 
           className="absolute inset-0 opacity-20"
           style={{
-            backgroundImage: `url('https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1920')`,
+            backgroundImage: `url('/images/about-hero.jpg')`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
@@ -45,7 +45,7 @@ const About = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            About <span className="text-gold-500">GizNet Const</span>
+            About <span className="text-gold-500">Gizo Construction</span>
           </motion.h1>
           <motion.p 
             className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed"

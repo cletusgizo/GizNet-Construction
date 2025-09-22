@@ -26,9 +26,6 @@ const Header = () => {
       dropdown: [
         { name: "Residential Construction", path: "/services/residential" },
         { name: "Commercial Construction", path: "/services/commercial" },
-        { name: "Renovations", path: "/services/renovations" },
-        { name: "Architecture & Design", path: "/services/architecture" },
-        { name: "Project Management", path: "/services/management" },
       ],
     },
     { name: "Projects", path: "/projects" },
@@ -53,7 +50,7 @@ const Header = () => {
               {/* <HardHat className="h-8 w-8 text-white" /> */}
             </div>
             <span className="text-2xl font-bold text-navy-900">
-              GizNet Const
+              Gizo Construction
             </span>
           </Link>
 

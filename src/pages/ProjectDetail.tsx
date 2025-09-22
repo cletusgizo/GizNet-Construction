@@ -1,12 +1,10 @@
 import React from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, MapPin, DollarSign, Ruler, Clock, CheckCircle } from 'lucide-react';
 
 const ProjectDetail = () => {
-  const { id } = useParams();
-
-  // Mock project data - in a real app, this would come from an API
+  // Project data
   const project = {
     id: 1,
     title: 'Modern Family Home',
@@ -56,7 +54,7 @@ const ProjectDetail = () => {
       'Pre-planned all technology infrastructure',
     ],
     testimonial: {
-      text: 'BuildCorp exceeded our expectations in every way. From the initial design consultation to the final walkthrough, their team was professional, communicative, and detail-oriented. Our dream home is now a reality, and we couldn\'t be happier with the results.',
+      text: 'Gizo Construction really impressed us with their work. They listened to our ideas and brought them to life perfectly. The team was always available and kept us updated throughout the process. We\'re thrilled with our new home!',
       author: 'Jennifer Johnson',
       role: 'Homeowner',
     },
@@ -162,7 +160,7 @@ const ProjectDetail = () => {
 
                 <h3 className="text-2xl font-bold text-navy-900 mb-4">Key Features</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-                  {project.features.map((feature, index) => (
+                  {project.features.map((feature) => (
                     <div key={feature} className="flex items-center space-x-3">
                       <CheckCircle className="h-5 w-5 text-gold-500 flex-shrink-0" />
                       <span className="text-gray-700">{feature}</span>

@@ -1,12 +1,10 @@
 import React from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, User, Clock, Share2, Facebook, Twitter, Linkedin } from 'lucide-react';
 
 const BlogDetail = () => {
-  const { id } = useParams();
-
-  // Mock blog post data - in a real app, this would come from an API
+  // Blog post data
   const post = {
     id: 1,
     title: 'Sustainable Building Materials: The Future of Construction',
